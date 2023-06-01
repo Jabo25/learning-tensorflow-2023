@@ -6,7 +6,7 @@ There are 2 versions of the project I used. The statcast-only model uses Statcas
 However, it does not have older statistics like OPS, SLG, and OBP. I also did not show graphs or use normalization in this model. 
 The statcast-only model has an accuracy of .4 away from pitcher ERA on average which is good, but it could be improved. 
 
-The 2nd version of the model I made, and the better version of the model is in the folder titled easy stats. This version of the algorithm is
+The 2nd version of the model I made, and the better version of the model is in the folder titled FINAL ERA PREDICTOR. This version of the algorithm is
 .28 away on average from the actual pitcher ERA. This model uses Statcast statistics like launch angle as well as older statistics like OPS and SLG%.
 I also added normalization through a zscore which significantly improved model accuracy, speed, and performance when running it. 
 
