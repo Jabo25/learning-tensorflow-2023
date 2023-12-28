@@ -1,6 +1,7 @@
 I wanted to see how well I could predict pitcher ERA in the MLB by using a basic machine-learning model. 
 All of my data was collected from baseball savant which is ran by the MLB. https://baseballsavant.mlb.com/
 Baseball Savant allowed me to download a CSV file of every pitcher statistic in the Statcast era of baseball. This data is powered by a model. 
+I have a link to my google colab to make it easier to run: https://colab.research.google.com/drive/1PJAej-CpBxssjjNKtxBxK9N5Ua2oYa2H?usp=sharing#scrollTo=HIQdkZ80QedD
 
 There are 2 versions of the project I used. The statcast-only model uses Statcast era statistics like launch angle and hard hit rate to predict ERA. 
 However, it does not have older statistics like OPS, SLG, and OBP. I also did not show graphs or use normalization in this model. 
